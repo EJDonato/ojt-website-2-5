@@ -2,7 +2,7 @@ import logo from '../assets/inspire_logo.png';
 
 function Navbar() {
     return (
-        <nav className='flex justify-between bg-gradient-to-bl from-black to-rgb(100, 21, 21) shadow-xl shadow-black/30 text-white'>
+        <nav className='relative flex justify-between bg-gradient-to-bl from-black to-rgb(100, 21, 21) shadow-xl shadow-black/60 text-white z-20'>
             <div className='flex items-center gap-5 p-4 pl-15'>
                 <img className="w-15 shadow-lg shadow-black/30" src={logo} alt="Logo" />
                 <p className='font-bold text-xl'>2-5 Portfolio</p>
