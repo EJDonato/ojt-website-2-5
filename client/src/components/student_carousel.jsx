@@ -31,7 +31,7 @@ function StudentCarousel() {
 
   return (
     <div className="flex items-center justify-center">
-      <div className="">
+      <div className="w-full overflow-hidden">
         <div
           className="flex m-5 gap-5 transition-transform duration-0"
           style={{

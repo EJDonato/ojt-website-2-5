@@ -1,24 +1,6 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
+import {images} from "../data/company_data.js";
 
-import afflatus from "../assets/companies/afflatus.png";
-import blast_asia from "../assets/companies/blast_asia.png";
-import delsan from "../assets/companies/delsan.png";
-import dynamic_pc from "../assets/companies/dynamic_pc.png";
-// Glory dapat here
-import infopro from "../assets/companies/infopro.png";
-import isr from "../assets/companies/isr.png";
-// Manila Water
-// Nexus Cloud
-// Open Access BPO
-import primer from "../assets/companies/primer.png";
-// Prodigitality
-import sds from "../assets/companies/sds.png";
-import sm_retail from "../assets/companies/sm_retail.png";
-import sofi from "../assets/companies/sofi.png";
-import testronix from "../assets/companies/testronix.png";
-
-
-const images = [afflatus, blast_asia, delsan, dynamic_pc, infopro, isr, primer, sds, sm_retail, sofi, testronix];
 const extendedImages = [...images, ...images]; // for seamless loop
 const imageWidthVW = 6; // 10vw image + 2vw gap
 

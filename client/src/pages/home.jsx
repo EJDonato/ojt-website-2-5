@@ -8,10 +8,10 @@ function Home() {
     <main>
       <div className='flex items-center justify-center h-100 flex-col gap-2 bg-[url("/src/assets/groufie.png")] bg-cover bg-center shadow-xl shadow-black/30 z-0'>
         <div className="flex items-center justify-center flex-col gap-2 p-6 rounded-3xl bg-black/30">
-          <h1 className="font-bold text-white text-3xl">
+          <h1 className="font-bold text-white text-3xl text-center">
             Bachelor of Science in Computer Engineering 2-5
           </h1>
-          <h3 className="text-white text-xl">Batch 24-25</h3>
+          <h3 className="text-white text-xl text-center">Batch 24-25</h3>
         </div>
       </div>
       <StudentCarousel />
