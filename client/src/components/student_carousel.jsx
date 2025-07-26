@@ -20,11 +20,11 @@ function StudentCarousel() {
       setScrollX((prev) => {
         if (prev >= totalWidth) {
           // Reset for seamless loop
-          return 4; //Adjust for seamless loop start position
+          return 5; //Adjust for seamless loop start position
         }
         return prev + 0.1 ; // Adjust for smoothness/speed
       });
-    }, 18); // ~60fps 18 to
+    }, 18); // ~60fps
 
     return () => clearInterval(interval);
   }, []);
