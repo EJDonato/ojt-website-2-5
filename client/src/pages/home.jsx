@@ -1,4 +1,6 @@
 import image from "../assets/inspire_logo.png";
+import CompanyCarousel from "../components/company_carousel.jsx"; 
+
 
 function Home() {
   return (
@@ -25,7 +27,8 @@ function Home() {
       </div>
 
       <div>
-        
+        <h1>Learn about our partner companies!</h1>
+        <CompanyCarousel />
       </div>
     </main>
   );
