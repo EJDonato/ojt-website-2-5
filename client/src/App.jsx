@@ -4,6 +4,7 @@ import Home from './pages/home.jsx';
 import CompanyProfiles from './pages/company_profiles.jsx';
 import StudentProfiles from './pages/student_profiles.jsx';
 import CompanyPage from './pages/company_page.jsx';
+import StudentPage from './pages/student_page.jsx';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/company-profiles' element={<CompanyProfiles />}/>
           <Route path='/company-profiles/:id' element={<CompanyPage />}/>
           <Route path='/student-profiles' element={<StudentProfiles />}/>
+          <Route path='/student-profiles/:id' element={<StudentPage />}/>
         </Routes>
       </Router>
     </>
