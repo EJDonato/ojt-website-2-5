@@ -1,13 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { images } from "../data/student_data.js";
 
-import alvin from "../assets/students/alvin.png";
-import elton from "../assets/students/elton.png";
-import amran from "../assets/students/amran.png";
-import eunice from "../assets/students/eunice.png";
-import ezekiel from "../assets/students/ezekiel.png";
-import sean from "../assets/students/sean.png";
-
-const images = [alvin, elton, amran, eunice, ezekiel, sean];
 const extendedImages = [...images, ...images, ...images]; // for seamless loop
 const imageWidthVW = 6; // 10vw image + 2vw gap
 

@@ -49,54 +49,16 @@ function Navbar() {
           <li>
             <a
               className={`relative inline-block group transition duration-400 ease-in-out ${
-                path === "/weekly-reports"
+                path === "/student-profiles"
                   ? "text-red-400"
                   : "text-white hover:text-red-400"
               }`}
-              href="/weekly-reports"
+              href="/student-profiles"
             >
-              Weekly Reports
+              Student Profiles
               <span
                 className={`absolute bottom-0 left-0 w-full h-[2px] bg-red-400 origin-center transition-transform duration-300 ${
-                  path === "/weekly-reports"
-                    ? "scale-x-100"
-                    : "scale-x-0 group-hover:scale-x-100"
-                }`}
-              ></span>
-            </a>
-          </li>
-          <li>
-            <a
-              className={`relative inline-block group transition duration-400 ease-in-out ${
-                path === "/assessments"
-                  ? "text-red-400"
-                  : "text-white hover:text-red-400"
-              }`}
-              href="/assessments"
-            >
-              Assessments
-              <span
-                className={`absolute bottom-0 left-0 w-full h-[2px] bg-red-400 origin-center transition-transform duration-300 ${
-                  path === "/assessments"
-                    ? "scale-x-100"
-                    : "scale-x-0 group-hover:scale-x-100"
-                }`}
-              ></span>
-            </a>
-          </li>
-          <li>
-            <a
-              className={`relative inline-block group transition duration-400 ease-in-out ${
-                path === "/evidences"
-                  ? "text-red-400"
-                  : "text-white hover:text-red-400"
-              }`}
-              href="/evidences"
-            >
-              Evidences
-              <span
-                className={`absolute bottom-0 left-0 w-full h-[2px] bg-red-400 origin-center transition-transform duration-300 ${
-                  path === "/evidences"
+                  path === "/student-profiles"
                     ? "scale-x-100"
                     : "scale-x-0 group-hover:scale-x-100"
                 }`}

@@ -6,7 +6,7 @@ import Footer from "../components/footer.jsx";
 function Home() {
   return (
     <main>
-      <div className='flex items-center justify-center h-100 flex-col gap-2 bg-[url("/src/assets/groufie.png")] bg-cover bg-center shadow-xl shadow-black/30 z-0'>
+      <div className='flex items-center justify-center h-[60vh] flex-col gap-2 bg-[url("/src/assets/groufie.png")] bg-cover bg-center shadow-xl shadow-black/30 z-0'>
         <div className="flex items-center justify-center flex-col gap-2 p-6 rounded-3xl bg-black/30">
           <h1 className="font-bold text-white text-3xl text-center">
             Bachelor of Science in Computer Engineering 2-5
@@ -16,8 +16,8 @@ function Home() {
       </div>
       <StudentCarousel />
 
-      <div className="mt-1 flex items-center justify-center">
-        <div className="flex items-center justify-center gap-32 mt-10 bg-white/30 p-10 rounded-4xl shadow-xl shadow-black/30">
+      <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center gap-32 mt-3 bg-white/30 p-10 rounded-4xl shadow-xl shadow-black/30">
           <div className="flex flex-col gap-5">
             <h1 className="text-black font-bold text-5xl">OJT Adviser</h1>
             <h2 className="text-white font-bold text-2xl">

@@ -2,13 +2,13 @@ import { useState, useEffect } from "react";
 import {images} from "../data/company_data.js";
 
 const extendedImages = [...images, ...images]; // for seamless loop
-const imageWidthVW = 6; // 10vw image + 2vw gap
+const imageWidthVW = 6;
 
 function CompanyCarousel() {
   const [scrollX, setScrollX] = useState(0);
 
   useEffect(() => {
-    const totalWidth = images.length * imageWidthVW*2; // Only one set
+    const totalWidth = images.length * imageWidthVW*2;
     const interval = setInterval(() => {
       setScrollX((prev) => {
         if (prev >= totalWidth) {
