@@ -23,23 +23,23 @@ function CompanyPage() {
 
   return (
     <main>
-      <div className="flex items-center justify-center h-[40vh] bg-white/30 shadow-xl shadow-black/40">
-        <div className="flex flex-row items-center gap-10">
-          <img src={company.logo} alt="" className="w-60" />
+      <div className="flex items-center justify-center h-full bg-white/30 shadow-xl shadow-black/40">
+        <div className="flex flex-row items-center gap-10 p-5 xl:my-10 sm: my-5">
+          <img src={company.logo} alt="" className="xl:w-60 sm: w-[40vw]" />
           <div className="flex flex-col gap-3 max-w-6xl">
-            <h1 className="font-bold text-7xl">{company.name}</h1>
-            <h1 className="text-3xl">{company.address}</h1>
+            <h1 className="font-bold xl:text-7xl sm: text-3xl">{company.name}</h1>
+            <h1 className="xl:text-3xl sm: text-sm">{company.address}</h1>
           </div>
         </div>
       </div>
 
       <div className="flex flex-col items-center justify-center bg-black/30 text-white shadow-xl shadow-black/40">
-        <h1 className="pt-10 font-bold text-3xl">ABOUT THE COMPANY</h1>
+        <h1 className="pt-10 font-bold text-3xl text-center">ABOUT THE COMPANY</h1>
         <p className="p-10 pt-5 text-justify text-lg">{company.about}</p>
       </div>
 
       <div className="flex flex-col items-center justify-center gap-3 mb-8">
-        <h1 className="text-3xl font-bold pt-10 text-white">
+        <h1 className="text-3xl font-bold pt-10 text-white text-center mb-5">
           STUDENT INTERNS' TESTIMONIALS
         </h1>
         <div className="flex justify-center flex-wrap gap-8">

@@ -10,7 +10,7 @@ function Navbar() {
       </div>
       <div className="flex items-center justify-around p-4 xl:pr-16 sm: pr-4">
         <ul className="flex font-bold text-center gap-15 xl:text-lg sm:text-sm ">
-          <li className="flex-1">
+          <li className="sm: flex-1 xl:flex-none">
             <a
               className={`relative inline-block group transition duration-400 ease-in-out ${
                 path === "/" ? "text-red-400" : "text-white hover:text-red-400"
@@ -27,7 +27,7 @@ function Navbar() {
               ></span>
             </a>
           </li>
-          <li className="flex-1">
+          <li className="sm: flex-1 xl:flex-none">
             <a
               className={`relative inline-block group transition duration-400 ease-in-out ${
                 path === "/company-profiles"
@@ -46,7 +46,7 @@ function Navbar() {
               ></span>
             </a>
           </li>
-          <li className="flex-1">
+          <li className="sm: flex-1 xl:flex-none">
             <a
               className={`relative inline-block group transition duration-400 ease-in-out ${
                 path === "/student-profiles"

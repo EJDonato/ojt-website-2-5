@@ -19,13 +19,13 @@ function StudentPage() {
 
   return (
     <main>
-      <div className="flex items-center justify-center h-[40vh] bg-white/30 shadow-xl shadow-black/40">
-        <div className="flex flex-row items-center gap-10">
-          <img src={student.image} alt="" className="w-60" />
+      <div className="flex items-center justify-center h-full bg-white/30 shadow-xl shadow-black/40">
+        <div className="flex flex-row items-center gap-10 p-5 xl:my-10 sm: my-5">
+          <img src={student.image} alt="" className="xl:w-60 sm: w-[40vw]" />
           <div className="flex flex-col max-w-6xl">
-            <h1 className="font-bold text-7xl mb-5">{student.fullname}</h1>
-            <h1 className="text-4xl font-bold">{student.company}</h1>
-            <h1 className="text-3xl">{student.position}</h1>
+            <h1 className="font-bold mb-5 xl:text-7xl sm: text-3xl">{student.fullname}</h1>
+            <h1 className="font-bold xl:text-4xl sm: text-xl ">{student.company}</h1>
+            <h1 className="xl:text-3xl sm: text-sm">{student.position}</h1>
           </div>
         </div>
       </div>

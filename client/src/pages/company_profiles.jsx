@@ -1,11 +1,12 @@
 import {companies} from "../data/company_data.js";
 import CompanyCard from "../components/company_card";
+import Footer from "../components/footer.jsx";
 
 function CompanyProfiles() {
   return (
     <main>
       <div className="h-[20vh] flex items-center justify-center bg-white/30 shadow-xl shadow-black/40">
-        <h1 className="text-5xl font-bold">Company Profiles</h1>
+        <h1 className="text-5xl font-bold text-center">Company Profiles</h1>
       </div>
 
       <div className="flex justify-center">
@@ -15,6 +16,8 @@ function CompanyProfiles() {
           ))}
         </div>
       </div>
+
+      <Footer />
     </main>
   );
 }

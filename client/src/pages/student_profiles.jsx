@@ -1,11 +1,12 @@
 import {students} from "../data/student_data.js";
 import StudentCard from "../components/student_card";
+import Footer from "../components/footer.jsx";
 
 function StudentProfiles() {
   return (
     <main>
       <div className="h-[20vh] flex items-center justify-center bg-white/30 shadow-xl shadow-black/40">
-        <h1 className="text-5xl font-bold">Student Profiles</h1>
+        <h1 className="text-5xl font-bold text-center">Student Profiles</h1>
       </div>
 
       <div className="flex justify-center">
@@ -15,6 +16,7 @@ function StudentProfiles() {
           ))}
         </div>
       </div>
+        <Footer />
     </main>
   );
 }
