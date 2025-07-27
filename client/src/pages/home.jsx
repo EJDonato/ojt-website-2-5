@@ -16,23 +16,23 @@ function Home() {
       </div>
       <StudentCarousel />
 
-      <div className="flex items-center justify-center">
-        <div className="flex items-center justify-center gap-32 mt-3 bg-white/30 p-10 rounded-4xl shadow-xl shadow-black/30">
+      <div className="flex items-center justify-center xl:m-0 sm: m-3">
+        <div className="flex items-center justify-center mt-3 bg-white/30 rounded-4xl shadow-xl shadow-black/30 xl:gap-32 xl:p-10 sm: gap-5 sm: p-5">
           <div className="flex flex-col gap-5">
-            <h1 className="text-black font-bold text-5xl">OJT Adviser</h1>
-            <h2 className="text-white font-bold text-2xl">
+            <h1 className="text-black font-bold xl:text-5xl sm: text-3xl">OJT Adviser</h1>
+            <h2 className="text-white font-bold xl:text-2xl sm: text-lg">
               Dr. Lutzer U. Reyes
             </h2>
           </div>
           <div>
-            <img className="w-80" src={image} alt="" />
+            <img className="xl:w-80 sm:w-[30vw]" src={image} alt="" />
           </div>
         </div>
       </div>
 
       <a href="/company-profiles">
         <div className="flex flex-col items-center justify-center m-8 bg-white/30 overflow-hidden rounded-4xl shadow-xl shadow-black/30">
-          <h1 className="font-bold text-4xl mt-4">
+          <h1 className="font-bold mt-4 xl:text-4xl sm: text-2xl text-center">
             Learn about our partner companies!
           </h1>
           <CompanyCarousel />

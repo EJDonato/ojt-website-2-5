@@ -33,7 +33,7 @@ function StudentCarousel() {
           }}
         >
           {extendedImages.map((image, i) => (
-            <img key={i} src={image} alt="" className="w-[10vw] h-auto" />
+            <img key={i} src={image} alt="" className="h-auto xl:w-[10vw] sm: w-[10vh]" />
           ))}
         </div>
       </div>

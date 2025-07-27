@@ -3,13 +3,13 @@ import logo from "../assets/inspire_logo.png";
 function Navbar() {
   const path = window.location.pathname;
   return (
-    <nav className="relative flex justify-between bg-gradient-to-bl from-black to-[rgb(100, 21, 21)] shadow-xl shadow-black/60 text-white z-20 sticky top-0">
-      <div className="flex items-center gap-5 p-4 pl-15">
-        <img className="w-15 shadow-lg shadow-black/30" src={logo} alt="Logo" />
+    <nav className="relative flex justify-between bg-gradient-to-bl from-black to-[rgb(100, 21, 21)] shadow-xl shadow-black/60 text-white z-20 sticky top-0 xl:flex-row sm: flex-col">
+      <div className="flex items-center justify-center gap-5 p-4 ">
+        <img className="shadow-lg shadow-black/30 w-20" src={logo} alt="Logo" />
         <p className="font-bold text-xl">2-5 Portfolio</p>
       </div>
-      <div className="flex items-center p-4 pr-16">
-        <ul className="flex text-lg font-bold gap-15">
+      <div className="flex items-center justify-around p-4 xl:pr-16 sm: pr-4">
+        <ul className="flex font-bold text-center gap-15 xl:text-lg sm:text-sm ">
           <li>
             <a
               className={`relative inline-block group transition duration-400 ease-in-out ${
